@@ -1,11 +1,21 @@
-# ES6 Template Project
+# Web App Template
 
-Besides the infrastructure, this has a blank webpage and hello world JS example in ES6 to help get started.
+Quick starting point for web app projects. Encapsulates my current opinions on best-practices for
+developing web apps.
 
-# Usage
+## Running
 
-0. install gulp globally. `npm install -g gulp`
-1. `cd es6-template && rm -rf .git`
-2. `mv es6-template your-project-name`
-3. `npm install`
-4. `gulp`
+* `npm install` to install the development tools
+* `npm run watch` to build client & server, rebuilding on change
+* `npm run server` to run the server, restarting on change
+
+## Dev Tools Included
+
+* [Babel](https://babeljs.io) - so the result is compatible across browsers and versions of Node
+* [Webpack](https://webpack.github.io) - for efficient builds
+* [Flowtype](https://flowtype.org) - to expose bugs
+
+## Style
+
+At the moment I like [AirBnB's style guide](https://github.com/airbnb/javascript).
+Eslint rules are included to enforce the style.
