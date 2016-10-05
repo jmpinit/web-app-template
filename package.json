@@ -1,5 +1,5 @@
 {
-  "name": "es6-template",
+  "name": "web-app-template",
   "version": "2.0.0",
   "description": "Starting point for es6 projects.",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmptable/es6-template.git"
+    "url": "git+https://github.com/jmptable/web-app-template.git"
   },
   "author": "Owen Trueblood",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jmptable/es6-template/issues"
+    "url": "https://github.com/jmptable/web-app-template/issues"
   },
-  "homepage": "https://github.com/jmptable/es6-template#readme",
+  "homepage": "https://github.com/jmptable/web-app-template#readme",
   "devDependencies": {
     "babel-cli": "^6.14.0",
     "babel-eslint": "^6.1.2",
