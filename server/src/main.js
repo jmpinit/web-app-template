@@ -7,7 +7,8 @@ const PORT = 3000;
 
 const app = express();
 
-app.use(express.static('public'));
+app.use(express.static('client/html'));
+app.use(express.static('client/build'));
 
 app.listen(PORT, () => {
     log.info('Hello from the server');

@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node node_modules/webpack/bin/webpack.js",
     "watch": "node node_modules/webpack/bin/webpack.js --watch",
-    "server": "node_modules/nodemon/bin/nodemon.js build/server.js"
+    "server": "node_modules/nodemon/bin/nodemon.js server/build/server.js"
   },
   "repository": {
     "type": "git",

@@ -3,10 +3,10 @@ const nodeExternals = require('webpack-node-externals');
 module.exports = [
     {
         name: 'client-side',
-        entry: './client/main.js',
+        entry: './client/src/main.js',
         output: {
             path: __dirname,
-            filename: 'public/js/app.js',
+            filename: 'client/build/app.js',
         },
         module: {
             loaders: [
@@ -33,10 +33,10 @@ module.exports = [
         name: 'server-side',
         target: 'node',
         externals: [nodeExternals()],
-        entry: './server/main.js',
+        entry: './server/src/main.js',
         output: {
             path: __dirname,
-            filename: 'build/server.js',
+            filename: './server/build/server.js',
         },
         module: {
             loaders: [
