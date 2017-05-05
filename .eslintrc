@@ -2,8 +2,5 @@
     "parser": "babel-eslint",
     "env": { "browser": true },
     "extends": "airbnb",
-    "plugins": [ "flowtype" ],
-    "rules": {
-        "indent": ["error", 4]
-    }
+    "plugins": [ "flowtype" ]
 }
