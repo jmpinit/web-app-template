@@ -2,7 +2,6 @@
   "name": "web-app-template",
   "version": "2.0.0",
   "description": "Starting point for es6 projects.",
-  "main": "index.js",
   "scripts": {
     "build": "node node_modules/webpack/bin/webpack.js",
     "watch": "node node_modules/webpack/bin/webpack.js --watch",
