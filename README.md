@@ -13,7 +13,6 @@ developing web apps.
 
 * [Babel](https://babeljs.io) - so the result is compatible across browsers and versions of Node
 * [Webpack](https://webpack.github.io) - for efficient builds
-* [Flowtype](https://flowtype.org) - to expose bugs
 
 ## Style
 

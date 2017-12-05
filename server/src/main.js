@@ -1,5 +1,3 @@
-// @flow
-
 import log from 'winston';
 import express from 'express';
 

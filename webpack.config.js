@@ -15,14 +15,6 @@ module.exports = [
                     exclude: /(node_modules)/,
                     loader: 'babel-loader',
                     query: {
-                        plugins: [
-                            'transform-flow-strip-types',
-                            ['typecheck', {
-                                disable: {
-                                    production: true,
-                                },
-                            }],
-                        ],
                         presets: ['es2015'],
                     },
                 },
@@ -45,14 +37,6 @@ module.exports = [
                     exclude: /(node_modules)/,
                     loader: 'babel-loader',
                     query: {
-                        plugins: [
-                            'transform-flow-strip-types',
-                            ['typecheck', {
-                                disable: {
-                                    production: true,
-                                },
-                            }],
-                        ],
                         presets: ['es2015'],
                     },
                 },
