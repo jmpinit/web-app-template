@@ -21,7 +21,6 @@
     "babel-cli": "^6.14.0",
     "babel-eslint": "^8.0.3",
     "babel-loader": "^7.1.2",
-    "babel-preset-es2015": "^6.14.0",
     "eslint": "^4.12.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
@@ -32,6 +31,7 @@
     "webpack-node-externals": "^1.5.4"
   },
   "dependencies": {
+    "babel-preset-env": "^1.6.1",
     "express": "^4.16.2",
     "winston": "^2.4.0"
   }
